@@ -1,0 +1,14 @@
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\bin\Debug\net6.0\BAI2.exe
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\bin\Debug\net6.0\BAI2.deps.json
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\bin\Debug\net6.0\BAI2.runtimeconfig.json
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\bin\Debug\net6.0\BAI2.dll
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\bin\Debug\net6.0\BAI2.pdb
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.AssemblyInfoInputs.cache
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.AssemblyInfo.cs
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.csproj.CoreCompileInputs.cache
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.dll
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\refint\BAI2.dll
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.pdb
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.genruntimeconfig.cache
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\ref\BAI2.dll
