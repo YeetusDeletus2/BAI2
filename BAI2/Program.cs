@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BAI
 {
@@ -58,7 +59,8 @@ namespace BAI
 
         public static HashSet<uint> ZonderLicht(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => !Licht(var)));
+            
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
