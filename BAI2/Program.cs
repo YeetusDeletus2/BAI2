@@ -8,45 +8,36 @@ namespace BAI
         public static bool Vooruit(uint b)
         {
             // *** IMPLEMENTATION HERE *** //
-            return (b & 0x80u) != 0;
+            return (b & 0b10000000) != 0;
         }
 
         public static uint Vermogen(uint b)
         {
             // *** IMPLEMENTATION HERE *** //
             //0b0XX00000
-            uint temp = ((b & 0x20) >> 5) | ((b & 0x40) >> 6);
-            /*
-             input {
-                00 = 0
-                01 = 33
-                10 = 67
-                11 = 100
-                }   
-            
-             */
-            return 0;
+            uint bits = (b & 0b01100000);
+            return bits + (bits >> 5) + (bits >> 6);
         }
 
         public static bool Wagon(uint b)
         {
             // *** IMPLEMENTATION HERE *** //
             // 0b000X0000
-            return (b & 0x10u) != 0;
+            return (b & 0b00010000) != 0;
         }
 
         public static bool Licht(uint b)
         {
             // *** IMPLEMENTATION HERE *** //
             // 0b0000X000
-            return (b & 0x08u) != 0;
+            return (b & 0b00001000) != 0;
         }
 
         public static uint ID(uint b)
         {
             // *** IMPLEMENTATION HERE *** //
             // 0b00000XXX
-            return 0;
+            return (b & 0b00000111);
         }
 
         public static HashSet<uint> Alle(List<uint> inputStroom)

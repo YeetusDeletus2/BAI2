@@ -101,3 +101,4 @@ C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\Tests\ob
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\Tests\obj\Debug\net6.0\Tests.pdb
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\Tests\obj\Debug\net6.0\Tests.genruntimeconfig.cache
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\Tests\obj\Debug\net6.0\ref\Tests.dll
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\Tests\obj\Debug\net6.0\Tests.sourcelink.json
