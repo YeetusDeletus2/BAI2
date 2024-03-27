@@ -73,15 +73,17 @@ namespace BAI
 
         public static HashSet<uint> Opdr3a(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = SelecteerID(inputStroom,0,2);
             // *** IMPLEMENTATION HERE *** //
+            set.IntersectWith(ZonderLicht(inputStroom));
             return set;
         }
 
         public static HashSet<uint> Opdr3b(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = Alle(inputStroom);
             // *** IMPLEMENTATION HERE *** //
+            set.ExceptWith(Opdr3a(inputStroom));
             return set;
         }
 
