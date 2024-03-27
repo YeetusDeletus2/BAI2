@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BAI
 {
@@ -42,14 +43,15 @@ namespace BAI
 
         public static HashSet<uint> Alle(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom);
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
 
         public static HashSet<uint> ZonderLicht(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => !Licht(var)));
+            
             // *** IMPLEMENTATION HERE *** //
             return set;
             
@@ -57,14 +59,14 @@ namespace BAI
 
         public static HashSet<uint> MetWagon(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => Wagon(var)));
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
 
         public static HashSet<uint> SelecteerID(List<uint> inputStroom, uint lower, uint upper)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => ID(var) >= lower && ID(var) <= upper));
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
