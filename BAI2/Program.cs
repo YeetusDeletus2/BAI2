@@ -67,7 +67,7 @@ namespace BAI
 
         public static HashSet<uint> MetWagon(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => Wagon(var)));
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
