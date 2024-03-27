@@ -12,3 +12,4 @@ C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.pdb
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.genruntimeconfig.cache
 C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\ref\BAI2.dll
+C:\Users\11897\RiderProjects\Aftekenopdrachten2_wagons\Uitgangssituatie\BAI2\obj\Debug\net6.0\BAI2.sourcelink.json
