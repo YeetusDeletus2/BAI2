@@ -51,7 +51,7 @@ namespace BAI
 
         public static HashSet<uint> Alle(List<uint> inputStroom)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom);
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
