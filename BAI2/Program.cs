@@ -74,7 +74,7 @@ namespace BAI
 
         public static HashSet<uint> SelecteerID(List<uint> inputStroom, uint lower, uint upper)
         {
-            HashSet<uint> set = new HashSet<uint>();
+            HashSet<uint> set = new HashSet<uint>(inputStroom.Where(var => ID(var) >= lower && ID(var) <= upper));
             // *** IMPLEMENTATION HERE *** //
             return set;
         }
