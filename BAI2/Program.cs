@@ -54,6 +54,7 @@ namespace BAI
             
             // *** IMPLEMENTATION HERE *** //
             return set;
+            
         }
 
         public static HashSet<uint> MetWagon(List<uint> inputStroom)
